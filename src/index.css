@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Roboto";
+    font-weight: 400;
+    src: url("/fonts/Roboto-Regular.woff2") format("woff2"),
+      url("/fonts/Roboto-Regular.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "DM Sans";
+    font-weight: 400;
+    src: url("/fonts/DMSans-Regular.woff2") format("woff2"),
+      url("/fonts/DMSans-Regular.woff") format("woff");
+  }
+}
